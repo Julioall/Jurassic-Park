@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,300;1,400&display=swap');
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+@font-face { 
+  font-family: 'JurassicPark';
+  src: url('./fonts/Jurassic_Park.ttf') format('truetype');
+}
+
+html {
+  height: 100%;
+  width: 100%;
+
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+#nav-container {
+  margin-right: 50px;
+}
+
+.nav-item a{
+  color: white;
+  font-size: 2rem;
+  font-family: 'JurassicPark';
+  
+}
+
+.nav-item a:hover {
+  color: #efcc3d;
+  
+}
+
+#banner img {
+  width: 100%;
+}
+
+#conteudo img {
+  width: 35%;
+  border-radius: 20px;
+  margin-right: 20px;
+}
+
+#conteudo {
+  margin: 20px;
+  display: flex;
+
+}
